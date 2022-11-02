@@ -89,7 +89,7 @@ can load it again later.  Then just write:
 append_as_json(ofstream("aircraft.txt"), myplane);
 ```
 and we get a text file that looks like:
-```json
+```javascript
 { ID: { Registraton: "G-BFMK", Type: "C152", Serial: 344 }, Altitude: 2300.5, Latitude: 52.6063, Longitude: 1.0348, Heading: "285.3", Velocity: [ 51.3, 152.4 ] }
 ```
 
